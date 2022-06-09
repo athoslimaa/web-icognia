@@ -52,7 +52,7 @@ IKEv2 é um dos protocolos mais seguros, estáveis e extremamente rápido na rec
 
 #### 5. Dado uma empresa que trabalha totalmente em home office, que estrutura você propõe para que os funcionários acessem serviços internos de maneira segura? Caso opte por mais de uma proposta, pontue as vantagens e desvantagens de cada uma e aponte qual você escolheria.
 
-R-
+R- Para empresas em regime Home office, o principal ponto que tem que ser discutido nesse cenário, é a segurança. Essa segurança pode ser proposta de várias formas. Uma das formas mais seguras e comuns seria uma conexão Host-to-Lan, gerenciada e controlada 100% por um firewall, o qual irá fechar um túnel na conexão do colaborador com a empresa, tornando assim o acesso seguro. Esse túnel se chama VPN. Além do firewall da empresa gerenciando, teremos no PC do colaborador, um aplicativo instalado, o qual permitirá que essa VPN seja fechada de forma segura. A partir do momento em que essa conexão segura e criptografada é estabelecida, o colaborador passa a ter acesso aos sistemas, arquivos e tudo mais os quais ele tem acesso dentro da empresa, através da internet. A segurança é de fato a principal vantagem de se usar uma infra com VPN porém também trás uma grande desvantagem, pois por causa da criptografia que é aplicada, essa rede perde velocidade, como também aumenta consideravelmente o ping da rede.
 
 #### 6. Comente sobre virtualização, containers e orquestradores de containers. O que é cada um, quais principais ferramentas do mercado, benefícios que trazem, sua experiência com cada um e outros pontos que achar interessante. 
 
