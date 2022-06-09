@@ -84,7 +84,11 @@ R- A Infrastructure as code surgiu a partir da necesidade de evolução do forma
 
 #### 8. Dado uma empresa com um parque de computadores dividido em Linux, MacOS e Windows, proponha uma forma de gerenciar esses computadores de forma centralizada, pense em mudanças de software, coleta de informações, hardening e afins. Caso opte por mais de uma proposta, pontue as vantagens e desvantagens de cada uma e aponte qual você escolheria. 
 
-R-
+R- Como solução para o cenário, teremos que trabalhar com um dos principais termos do mundo do TI, que é a INTEROPERABILIDADE. Ela vai nos dar a possibilidade de trabalhar de forma centralizada e que possamos trocar informações e dados de forma eficiente entre os diferentes devices e sistemas da rede. 
+	Utilizando a ferramenta Samba4 por ex, é possível gerenciar o compartilhamento de arquivos entre os sistemas operacionais diferentes utilizando o protocolo SMB, o qual torna isso possível. O samba4 também possibilita o uso de um Active Directory, através do protocolo LDAP, fazendo assim com que possamos gerenciar os acessos e permissões de usuários e grupos de forma centralizada.
+	Para coleta de informações e afins, podemos utilizar a ferramenta Zabbix, que é capaz de monitorar e coletar informações de quase tudo através dos seus agentes que são instalados nas máquinas e fornecem esses dados. O zabbix é uma solução totalmente open source e que possui as mesmas funcionalidades tanto para as grandes companhias quanto para pequenas startups. Atraves do zabbix podemos monitorar diversos parâmetros, assim como saúde de equipamentos e podemos gerar inúmeros tipos de notificações e ralatórios extremamente detalhados e eficientes ajudando assim nas análises e tomadas de decisões.
+	Além disso, podemos acoplar ao Zabbix, uma outra ferramenta que é o Grafana, a qual é capaz de gerar dashboards estreamamente inteligentes e relatórios ainda mais refinados.
+
 
 
 
