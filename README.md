@@ -1,5 +1,7 @@
 # `Test Incognia`
 
+### Segue abaixo, todas as respostas para o teste do processo seletivo para Analista.
+
 #### 1. Descreva os protocolos envolvidos e como são utilizados quando eu abro o navegador e acesso a página www.google.com. Não é necessário descrever os protocolos abaixo da camada de transporte e caso exista mais de uma opção de protocolo em alguma etapa, opte por uma e comente brevemente sua escolha. 
 
 R- Ao acessar-mos uma página web como por exemplo www.google.com.br acontece por trás uma comunicação muito bem cadenciada, e regulada por uma pilha de protocolos (TCP/IP) que é baseada no modelo padrão (OSI) e quem permite hoje todas as comunicações entre hosts e servidores espalhados na internet. 
